@@ -16,3 +16,5 @@ def get_user(id):
 users: list = [user for id in user_ids if (user := get_user(id)) is not None]
                 # usuario para cada id em user ids, se o usuario retornado pelo get_user() for diferente de None
 print(json.dumps(users, indent=4))
+
+#### Preciso criar um criador de mais usuarios.
